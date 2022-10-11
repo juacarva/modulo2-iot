@@ -10,5 +10,7 @@ palabras = 0
 lineas = 0
 for linea in archivo:
     palabras += len(linea.split())
+    lineas += 1
 
 print(palabras)
+print(lineas)
